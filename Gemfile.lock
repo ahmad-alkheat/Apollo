@@ -35,7 +35,6 @@ GEM
       execjs
       json
     bcrypt (3.1.10)
-    bcrypt (3.1.10-x86-mingw32)
     bootstrap-sass (3.3.5.1)
       autoprefixer-rails (>= 5.0.0.1)
       sass (>= 3.3.0)
@@ -88,7 +87,6 @@ GEM
       mime-types
       mimemagic (= 0.3.0)
     pg (0.18.2)
-    pg (0.18.2-x86-mingw32)
     rack (1.5.5)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -137,8 +135,6 @@ GEM
       coffee-rails
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
-    tzinfo-data (1.2015.5)
-      tzinfo (>= 1.0.0)
     uglifier (2.7.1)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
@@ -147,7 +143,6 @@ GEM
 
 PLATFORMS
   ruby
-  x86-mingw32
 
 DEPENDENCIES
   acts-as-taggable-on (~> 3.5.0)
