@@ -5,7 +5,6 @@ class CommentsController < ApplicationController
         #creates a comment under the db comments table that belong_to the @post
         @comment = @post.comments.create(params[:comment].permit(:comment))
         @comment.user = current_user if current_user
-        @comment.save
         #if you can save the comment, take us to the 
         if @comment.save
             redirect_to post_path(@post)
